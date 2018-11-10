@@ -107,22 +107,6 @@ aside[role="complementary"] {
   width: 300px / 960px * 100%;
 }
 ```
-
-
-## Features
-
-```
-// base.scss
-
-@import 'reset';
-
-body {
-  font: 100% Helvetica, sans-serif;
-  background-color: #efefef;
-}
-```rgba($color, 0.5)``` *-you can use variable that has a hex value in rgba*
-```
-
 ## npm related
 ### configuration
 in the package.json file, add  ```"compile:sass": "node-sass sass_folder/sass_file.scss css_folder/style.css -w"``` to ```"scripts"```  attribute, the -w flag gonna keep watching the change in the file
@@ -134,14 +118,6 @@ then run ```npm run compile:sass```
 
 ## Installing node-sass
 > ```npm install node-sass --save-dev```
-## Vocaburaries
-    Mixins (@maxins)
-        $font-stack:    Helvetica, sans-serif;
-        $primary-color: #333;
-
-    Functions (@function )
-    include (@include )
-    varibale ($name: value)
 
 ## Features
 ```rgba($color, 0.5)``` *-you can use variable that has a hex value in rgba*
