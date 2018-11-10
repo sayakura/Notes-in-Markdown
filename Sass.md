@@ -107,17 +107,6 @@ aside[role="complementary"] {
   width: 300px / 960px * 100%;
 }
 ```
-## npm related
-### configuration
-in the package.json file, add  ```"compile:sass": "node-sass sass_folder/sass_file.scss css_folder/style.css -w"``` to ```"scripts"```  attribute, the -w flag gonna keep watching the change in the file
-then run ```npm run compile:sass```
-
-### live server
-```npm install live-server -g```
-```live server``` // this will launch your website in live
-
-## Installing node-sass
-> ```npm install node-sass --save-dev```
 
 ## Features
 ```rgba($color, 0.5)``` *-you can use variable that has a hex value in rgba*
