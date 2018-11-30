@@ -112,7 +112,7 @@ aside[role="complementary"] {
 ``` sass 
 rgba($color, 0.5)
 ```
-*-you can use variable that has a hex value in rgba*
+*you can use variable that has a hex value in rgba*
 
 
 ## npm related
@@ -124,9 +124,11 @@ then run ```npm run compile:sass```
 ``` javascript
 npm install live-server -g
 ```
+
 ``` javascript
 live server
-``` // this will launch your website in live
+```
+// this will launch your website in live
 
 ## Installing node-sass
 ``` javascript 
