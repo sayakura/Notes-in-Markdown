@@ -1,7 +1,7 @@
 # Main 
 everthing here is scss style
 ### variables: 
-```
+``` sass
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
@@ -12,7 +12,7 @@ body {
 ```
 
 ### Nesting
-```
+``` sass
 nav {
   ul {
     margin: 0;
