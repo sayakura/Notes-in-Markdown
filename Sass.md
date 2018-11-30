@@ -34,7 +34,7 @@ nav {
 You can create partial Sass files that contain little snippets of CSS that you can include in other Sass files. This is a great way to modularize your CSS and help keep things easier to maintain. A partial is simply a Sass file named with a leading underscore. You might name it something like ```_partial.scss```. The underscore lets Sass know that the file is only a partial file and that it should not be generated into a CSS file. Sass partials are used with the @import directive.
 
 ### Import
-```
+``` sass
 // _reset.scss
 
 html,
@@ -46,7 +46,7 @@ ol {
 }
 ```
 ### Mixins
-```
+``` sass 
 @mixin transform($property) {
   -webkit-transform: $property;
   -ms-transform: $property;
@@ -57,7 +57,7 @@ ol {
 ```
 
 ### Extend/Inheritance
-```
+``` sass
 /* This CSS will print because %message-shared is extended. */
 %message-shared {
   border: 1px solid #ccc;
@@ -92,7 +92,7 @@ ol {
 ```
 
 ### Operators
-```
+``` sass 
 .container {
   width: 100%;
 }
@@ -109,7 +109,10 @@ aside[role="complementary"] {
 ```
 
 ## Features
-```rgba($color, 0.5)``` *-you can use variable that has a hex value in rgba*
+``` sass 
+rgba($color, 0.5)
+```
+*-you can use variable that has a hex value in rgba*
 
 
 ## npm related
@@ -118,8 +121,14 @@ in the package.json file, add  ```"compile:sass": "node-sass sass_folder/sass_fi
 then run ```npm run compile:sass```
 
 ### live server
-```npm install live-server -g```
-```live server``` // this will launch your website in live
+``` javascript
+npm install live-server -g
+```
+``` javascript
+live server
+``` // this will launch your website in live
 
 ## Installing node-sass
-> ```npm install node-sass --save-dev```
+``` javascript 
+npm install node-sass --save-dev
+```
