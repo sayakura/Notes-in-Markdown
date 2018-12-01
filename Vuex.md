@@ -6,7 +6,7 @@
 ``` javascript
 import Vue from 'vue';
 import Vuex from 'vuex';
-
+import counter form './modules/counter'
 Vue.use(Vuex);
 
 export const store = new Vuex.Store({
@@ -32,6 +32,9 @@ export const store = new Vuex.Store({
 			commit('increment', payload);
 		},
 
+	},
+	modules: {
+		counter
 	}
 });
 
