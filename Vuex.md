@@ -1,6 +1,5 @@
 # An Overview
-![vuex overview]
-(./images/vuex-overview.png)
+![vuex overview](/images/vuex-overview.png)
 
 
 ### /store/store.js
